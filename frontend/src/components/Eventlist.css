@@ -1,0 +1,21 @@
+.event-list {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.event-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.event-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.event-list::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+.event-list::-webkit-scrollbar-thumb:hover {
+    background: #a1a1a1;
+}

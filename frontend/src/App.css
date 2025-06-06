@@ -1,0 +1,142 @@
+.App {
+    text-align: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.App-header {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.App-header h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.App-header p {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.App-header small {
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+.App-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem 2rem;
+}
+
+.loading {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.error {
+    background: #fee;
+    border: 1px solid #fcc;
+    color: #a00;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.retry-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.retry-btn:hover {
+    background: #c82333;
+}
+
+.events-container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.events-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.events-header h2 {
+    margin: 0;
+    color: #343a40;
+    font-size: 1.5rem;
+}
+
+.event-count {
+    background: #6c757d;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.no-events {
+    padding: 3rem 2rem;
+    color: #6c757d;
+}
+
+.no-events p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.setup-steps {
+    margin-top: 2rem;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.setup-steps h3 {
+    margin-top: 0;
+    color: #495057;
+}
+
+.setup-steps ol {
+    padding-left: 1.5rem;
+}
+
+.setup-steps li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+}
+
+.setup-steps code {
+    background: #e9ecef;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+}
