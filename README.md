@@ -2,7 +2,8 @@ To run this application on your system, follow the instructions.
 
 ## Setup Backend.
 1. Move to backend directory.
-2.Create a new virtual environment
+
+2. Create a new virtual environment
 
 ```bash
 python -m venv myvenv                                             
